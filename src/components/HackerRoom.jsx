@@ -9,7 +9,7 @@ const HackerRoom = (props) => {
 
   useEffect(() => {
     const video = document.createElement("video");
-    video.src = "textures/desk/screenprototype2.mp4"; // Ensure the video file path is correct
+    video.src = "textures/desk/MB.mp4"; // Ensure the video file path is correct
     video.loop = true;
     video.muted = true;
     video.playsInline = true; // Helps with autoplay in some browsers

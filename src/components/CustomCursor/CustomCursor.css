@@ -1,0 +1,26 @@
+.custom-cursor {
+  position: fixed;
+  width: 40px;
+  height: 40px;
+  pointer-events: none;
+  transform: translate(-50%, -50%);
+  transition: transform 0.1s ease-in-out, opacity 0.2s ease-in-out;
+  z-index: 9999 !important;
+  opacity: 1;
+}
+
+.custom-cursor.hidden {
+  opacity: 0;
+}
+
+.custom-cursor.click {
+  transform: translate(-50%, -50%) scale(1.2);
+}
+
+.custom-cursor.pointer {
+  transform: translate(-50%, -50%) scale(1.5);
+}
+
+/* .custom-cursor circle {
+  animation: pulse 1.5s infinite ease-in-out;
+} */

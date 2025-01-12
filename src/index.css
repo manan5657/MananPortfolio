@@ -1,4 +1,4 @@
-@import url('https://fonts.cdnfonts.com/css/general-sans');
+@import url("https://fonts.cdnfonts.com/css/general-sans");
 
 @tailwind base;
 @tailwind components;
@@ -6,11 +6,74 @@
 
 * {
   scroll-behavior: smooth;
+  user-select: none;
+  cursor: none !important;
+}
+
+/* html {
+  scrollbar-width: thin;
+  scroll-behavior: smooth;
+  scrollbar-color: #ff01015a #000;
+} */
+
+/* Custom Scrollbar Styling */
+html::-webkit-scrollbar {
+  width: 0.6vw; /* Thin scrollbar */
+  height: 0.6vw; /* For horizontal scrollbar, if necessary */
+}
+
+/* Scrollbar thumb (the draggable part) */
+html::-webkit-scrollbar-thumb {
+  background: linear-gradient(
+    135deg,
+    #4d4d4d,
+    #1a1a1a
+  ); /* Gradient for a more modern look */
+  border-radius: 2rem; /* Rounded corners for a smooth aesthetic */
+  border: 2px solid transparent; /* Subtle border to emphasize thumb */
+  background-clip: content-box; /* Ensures the border doesn't overlap with the thumb color */
+  transition: background 0.3s ease-in-out, transform 0.2s ease-in-out; /* Smooth transition on hover */
+}
+
+/* Hover effect on the thumb */
+html::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(
+    135deg,
+    /* #9c27b0,
+    #6a1b9a */ #4d4d4d,
+    #1a1a1a
+  ); /* Reversed gradient for hover effect */
+  transform: scale(1); /* Slightly increase thumb size for emphasis */
+}
+
+/* Scrollbar track (the area the thumb slides on) */
+html::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.1); /* Soft black background */
+  border-radius: 2rem; /* Rounded track edges */
+  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.2); /* Inner shadow for depth */
+}
+
+/* Scrollbar behavior */
+/* html {
+  scrollbar-width: thin; 
+  scrollbar-color: #6a1b9a #000; 
+  overflow: auto;
+} */
+
+/* Smooth scrolling behavior */
+html {
+  scroll-behavior: smooth;
+  cursor: none;
+}
+
+/* Optional: Adding a subtle glow effect to the scrollbar thumb when hovered */
+html::-webkit-scrollbar-thumb:hover {
+  box-shadow: 0 0 10px rgba(156, 39, 176, 0.8); /* Glow effect on hover */
 }
 
 body {
   background: #010103;
-  font-family: 'General Sans', sans-serif;
+  font-family: "General Sans", sans-serif;
 }
 
 @layer utilities {
@@ -161,11 +224,11 @@ body {
 
 .arrow-gradient {
   background-image: linear-gradient(
-          to right,
-          rgba(255, 255, 255, 0.1) 10%,
-          rgba(255, 255, 255, 0.000025) 50%,
-          rgba(255, 255, 255, 0.000025) 50%,
-          rgba(255, 255, 255, 0.025) 100%
+    to right,
+    rgba(255, 255, 255, 0.1) 10%,
+    rgba(255, 255, 255, 0.000025) 50%,
+    rgba(255, 255, 255, 0.000025) 50%,
+    rgba(255, 255, 255, 0.025) 100%
   );
 }
 
