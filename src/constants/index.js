@@ -58,19 +58,20 @@ export const clientReviews = [
 
 export const myProjects = [
   {
-    title: "NatureXplora - AI Podcast Platform",
-    desc: "Podcastr is a revolutionary Software-as-a-Service platform that transforms the way podcasts are created. With advanced AI-powered features like text-to-multiple-voices functionality, it allows creators to generate diverse voiceovers from a single text input.",
+    title: "NatureXplora - An Immersive Journey into the Wilderness",
+    desc: "NatureXplora is a captivating nature tour website built using HTML, SASS, and JavaScript. It showcases advanced animations that bring the beauty of nature to life, offering users an immersive and visually stunning experience.",
     subdesc:
-      "Built as a unique Software-as-a-Service app with Next.js 14, Tailwind CSS, TypeScript, Framer Motion and Convex, Podcastr is designed for optimal performance and scalability.",
+      "Designed to inspire exploration, NatureXplora combines seamless functionality with a modern aesthetic, making it an ideal platform for nature enthusiasts.",
     href: "https://naturexplora.netlify.app/",
     texture: "/textures/project/naturexoplora.mp4",
     logo: "/assets/naturex.png",
     logoStyle: {
-      backgroundColor: "#60f5a1",
+      backgroundColor: "#60f581",
       background:
         "linear-gradient(0deg, #60F5A150, #60F5A150), linear-gradient(180deg, rgba(255, 255, 255, 0.9) 0%, rgba(208, 213, 221, 0.8) 100%)",
       border: "0.2px solid rgba(208, 213, 221, 1)",
       boxShadow: "0px 0px 60px 0px rgba(35, 131, 96, 0.3)",
+      filter: "contrast(100%)",
     },
     spotlight: "/assets/spotlight3.png",
     tags: [
@@ -97,10 +98,10 @@ export const myProjects = [
     ],
   },
   {
-    title: "LearnLynx - AI Podcast Platform",
-    desc: "Podcastr is a revolutionary Software-as-a-Service platform that transforms the way podcasts are created. With advanced AI-powered features like text-to-multiple-voices functionality, it allows creators to generate diverse voiceovers from a single text input.",
+    title: "LearnLynx - Empowering Learning",
+    desc: "LearnLynx is a cutting-edge learning management system built with the MERN stack (MongoDB, Express, React, Node.js). It features dynamic student and teacher dashboards, enabling streamlined course management and communication. Integrated calendar events help users stay organized, while secure email login ensures data privacy.",
     subdesc:
-      "Built as a unique Software-as-a-Service app with Next.js 14, Tailwind CSS, TypeScript, Framer Motion and Convex, Podcastr is designed for optimal performance and scalability.",
+      "With efficient MongoDB database management and smooth payment processing via Razorpay, LearnLynx delivers a modern, user-friendly platform designed for effective learning and teaching experiences.",
     href: "https://github.com/manan5657/LMS-Frontend-fork/",
     texture: "/textures/project/learn.mp4",
     logo: "/assets/learn.png",
@@ -134,10 +135,10 @@ export const myProjects = [
     ],
   },
   {
-    title: "FigPro - Real-Time Google Docs Clone",
-    desc: "LiveDoc is a powerful collaborative app that elevates the capabilities of real-time document editing. As an enhanced version of Google Docs, It supports millions of collaborators simultaneously, ensuring that every change is captured instantly and accurately.",
+    title: "FigPro - Real-Time Collaborative Design Platform",
+    desc: "FigPro is a powerful design platform that enables real-time collaboration, allowing teams to work seamlessly on design projects. Built with Next.js, TypeScript, Tailwind, and ShadCN, FigPro offers tools like vector editing, prototyping, and design system management. With Liveblocks integration, users can collaborate live, seeing updates instantly.",
     subdesc:
-      "With LiveDoc, users can experience the future of collaboration, where multiple contributors work together in real time without any lag, by using Next.js and Liveblocks newest features.",
+      "The platform also supports shared libraries, team project organization, and easy export options, providing an efficient and dynamic workspace for designers to create and iterate together in real-time.",
     href: "https://fig-draw.vercel.app/",
     texture: "/textures/project/figpro.mp4",
     logo: "/assets/fig.png",
@@ -247,10 +248,10 @@ export const myProjects = [
   //   ],
   // },
   {
-    title: "BreezyBnB - AI Photo Manipulation App",
-    desc: "Imaginify is a groundbreaking Software-as-a-Service application that empowers users to create stunning photo manipulations using AI technology. With features like AI-driven image editing, a payments system, and a credits-based model.",
+    title: "BreezyBnB - Seamless Property Rentals at Your Fingertips",
+    desc: "BreezyBnB is a property rental platform designed for both hosts and guests, offering a seamless and intuitive booking experience. Built with EJS, Node.js, and MongoDB, it enables users to explore, book, and list accommodations efficiently. The platform's features include a user-friendly interface, dynamic filters, and secure authentication.",
     subdesc:
-      "Built with Next.js 14, Cloudinary AI, Clerk, and Stripe, Imaginify combines cutting-edge technology with a user-centric approach. It can be turned into a side income or even a full-fledged business.",
+      "Although payment gateway integration is yet to be added, BreezyBnB sets the foundation for a robust, scalable solution for property rentals.",
     href: "https://breeezybnb.onrender.com/listings",
     texture: "/textures/project/breeezy.mp4",
     logo: "/assets/bb.png",

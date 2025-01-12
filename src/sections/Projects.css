@@ -1,0 +1,52 @@
+/* Add this to your CSS file or inline styles */
+.tech-logo {
+  position: relative;
+  display: inline-block;
+}
+
+.tech-tooltip {
+  position: absolute;
+  bottom: 120%; /* Adjust as needed */
+  left: 50%;
+  transform: translateX(-50%) scale(0); /* Start small */
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 14px;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out,
+    transform 0.4s cubic-bezier(0.68, -0.55, 0.27, 1.55); /* Elastic effect */
+  white-space: nowrap;
+  z-index: 10;
+}
+
+.tech-logo:hover .tech-tooltip {
+  opacity: 1;
+  visibility: visible;
+  transform: translateX(-50%) scale(1); /* Enlarge with elastic bounce */
+}
+
+/* Additional effect when the tooltip follows the cursor */
+.tech-logo:hover .tech-tooltip {
+  animation: elastic-move 0.6s ease-out;
+}
+
+@keyframes elastic-move {
+  0% {
+    transform: translateX(-50%) scale(0.8);
+  }
+  30% {
+    transform: translateX(-50%) scale(1.2);
+  }
+  50% {
+    transform: translateX(-50%) scale(0.95);
+  }
+  70% {
+    transform: translateX(-50%) scale(1.05);
+  }
+  100% {
+    transform: translateX(-50%) scale(1);
+  }
+}

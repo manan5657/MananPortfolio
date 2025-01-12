@@ -7,6 +7,7 @@ import { Center, OrbitControls } from "@react-three/drei";
 import { myProjects } from "../constants/index.js";
 import CanvasLoader from "../components/CanvasLoader.jsx";
 import DemoComputer from "../components/DemoComputer.jsx";
+import "./Projects.css";
 
 const projectCount = myProjects.length;
 
@@ -68,10 +69,19 @@ const Projects = () => {
           </div>
 
           <div className="flex items-center justify-between flex-wrap gap-5">
+            {/* <div className="flex items-center gap-3">
+              {currentProject.tags.map((tag, index) => (
+                <div key={index} className="tech-logo">
+                  <img src={tag.path} alt={tag.name} />
+                </div>
+              ))}
+            </div> */}
             <div className="flex items-center gap-3">
               {currentProject.tags.map((tag, index) => (
                 <div key={index} className="tech-logo">
                   <img src={tag.path} alt={tag.name} />
+                  {/* Tooltip with the tech name */}
+                  <div className="tech-tooltip">{tag.name}</div>
                 </div>
               ))}
             </div>

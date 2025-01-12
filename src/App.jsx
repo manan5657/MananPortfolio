@@ -12,9 +12,9 @@ import PreLoader from "./components/Preloader/PreLoader.jsx";
 const App = () => {
   return (
     <>
-      <PreLoader />
-      <CustomCursor />
       <main className="max-w-7xl mx-auto relative">
+        <PreLoader />
+        <CustomCursor />
         <Navbar />
         <Hero />
         <About />
