@@ -71,6 +71,11 @@ html::-webkit-scrollbar-thumb:hover {
   box-shadow: 0 0 10px rgba(156, 39, 176, 0.8); /* Glow effect on hover */
 }
 
+img {
+  -webkit-user-drag: none;
+  user-select: none;
+}
+
 body {
   background: #010103;
   font-family: "General Sans", sans-serif;

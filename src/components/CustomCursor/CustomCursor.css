@@ -43,6 +43,12 @@ button:hover .cursor-svg {
   stroke: url(#gradient-hover);
 }
 
+@media (max-width: 1024px) {
+  .custom-cursor {
+    display: none;
+  }
+}
+
 /* .custom-cursor {
   position: fixed;
   width: 40px;

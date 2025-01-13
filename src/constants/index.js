@@ -77,23 +77,18 @@ export const myProjects = [
     tags: [
       {
         id: 1,
-        name: "React.js",
-        path: "/assets/react.svg",
+        name: "HTML",
+        path: "/assets/html.svg",
       },
       {
         id: 2,
-        name: "TailwindCSS",
-        path: "assets/tailwindcss.png",
+        name: "Javascript",
+        path: "assets/js.svg",
       },
       {
         id: 3,
-        name: "TypeScript",
-        path: "/assets/typescript.png",
-      },
-      {
-        id: 4,
-        name: "Framer Motion",
-        path: "/assets/framer.png",
+        name: "SASS",
+        path: "/assets/sass.svg",
       },
     ],
   },
@@ -119,18 +114,18 @@ export const myProjects = [
       },
       {
         id: 2,
-        name: "TailwindCSS",
-        path: "assets/tailwindcss.png",
+        name: "Express",
+        path: "assets/express.svg",
       },
       {
         id: 3,
-        name: "TypeScript",
-        path: "/assets/typescript.png",
+        name: "MongoDB",
+        path: "/assets/mongo.svg",
       },
       {
         id: 4,
-        name: "Framer Motion",
-        path: "/assets/framer.png",
+        name: "RazorPay",
+        path: "/assets/razor.svg",
       },
     ],
   },
@@ -151,8 +146,8 @@ export const myProjects = [
     tags: [
       {
         id: 1,
-        name: "React.js",
-        path: "/assets/react.svg",
+        name: "NextJS",
+        path: "/assets/next.svg",
       },
       {
         id: 2,
@@ -166,8 +161,8 @@ export const myProjects = [
       },
       {
         id: 4,
-        name: "Framer Motion",
-        path: "/assets/framer.png",
+        name: "LiveBlocks",
+        path: "/assets/liveblock.svg",
       },
     ],
   },
@@ -264,23 +259,23 @@ export const myProjects = [
     tags: [
       {
         id: 1,
-        name: "React.js",
-        path: "/assets/react.svg",
+        name: "HTML",
+        path: "/assets/html.svg",
       },
       {
         id: 2,
-        name: "TailwindCSS",
-        path: "assets/tailwindcss.png",
+        name: "JavaScript",
+        path: "assets/js.svg",
       },
       {
         id: 3,
-        name: "TypeScript",
-        path: "/assets/typescript.png",
+        name: "Express",
+        path: "/assets/express.svg",
       },
       {
         id: 4,
-        name: "Framer Motion",
-        path: "/assets/framer.png",
+        name: "MongoDB",
+        path: "/assets/mongo.svg",
       },
     ],
   },
@@ -288,36 +283,36 @@ export const myProjects = [
 
 export const calculateSizes = (isSmall, isMobile, isTablet) => {
   return {
-    deskScale: isSmall ? 0.05 : isMobile ? 0.06 : 0.075,
-    deskPosition: isMobile ? [0.5, -4.5, 0] : [0.25, -5.6, 0],
+    deskScale: isSmall ? 0.05 : isMobile ? 0.06 : 0.082,
+    deskPosition: isMobile ? [0.5, -4.5, 0] : [0.3, -6.5, 0],
     cubePosition: isSmall
       ? [4, -5, 0]
       : isMobile
       ? [5, -5, 0]
       : isTablet
       ? [5, -5, 0]
-      : [9, -5.5, 0],
+      : [10, -5.5, 0],
     reactLogoPosition: isSmall
       ? [3, 4, 0]
       : isMobile
       ? [5, 4, 0]
       : isTablet
       ? [5, 4, 0]
-      : [12, 3, 0],
+      : [13, 4, 0],
     ringPosition: isSmall
       ? [-5, 7, 0]
       : isMobile
       ? [-10, 10, 0]
       : isTablet
       ? [-12, 10, 0]
-      : [-24, 10, 0],
+      : [-26, 10, 0],
     targetPosition: isSmall
       ? [-5, -10, -10]
       : isMobile
       ? [-9, -10, -10]
       : isTablet
       ? [-11, -7, -10]
-      : [-13, -13, -10],
+      : [-15, -13, -10],
   };
 };
 

@@ -69,9 +69,13 @@ const About = () => {
                 I&apos;m based in Zirakpur, Punjab and open to remote work
                 worldwide.
               </p>
-              <a href="#contact" className="w-fit">
+              <a
+                href="/assets/MananBhasin_Resume.pdf"
+                download
+                className="w-fit"
+              >
                 <Button
-                  name="Contact Me"
+                  name="Download CV 📃"
                   isBeam
                   containerClass="w-full mt-10"
                 />
