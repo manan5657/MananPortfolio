@@ -6,7 +6,7 @@ import { SkeletonUtils } from "three-stdlib";
 const Developer = ({ animationName = "idle", ...props }) => {
   const group = useRef();
 
-  const { scene } = useGLTF("/models/human/developer.glb");
+  const { scene } = useGLTF("/models/human/developer1.glb");
   const clone = React.useMemo(() => SkeletonUtils.clone(scene), [scene]);
   const { nodes, materials } = useGraph(clone);
 

@@ -8,10 +8,12 @@ import Footer from "./sections/Footer.jsx";
 import Experience from "./sections/Experience.jsx";
 import CustomCursor from "./components/CustomCursor/CustomCursor.jsx";
 import PreLoader from "./components/Preloader/PreLoader.jsx";
+import AnimatedTitle from "./components/AnimatedTitle/AnimatedTitle.jsx";
 
 const App = () => {
   return (
     <>
+      <AnimatedTitle />
       <main className="max-w-7xl mx-auto relative">
         <PreLoader />
         <CustomCursor />
