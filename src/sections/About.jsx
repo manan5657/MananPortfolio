@@ -70,7 +70,7 @@ const About = () => {
                 worldwide.
               </p>
               <a
-                href="/assets/MananBhasin_Resume.pdf"
+                href="/assets/MananBhasinUpdatedResume.pdf"
                 download
                 className="w-fit"
               >
