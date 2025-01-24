@@ -320,7 +320,7 @@ export const workExperiences = [
   {
     id: 1,
     name: "Research Intern",
-    pos: "Nano Research Lab, Chitkara University",
+    pos: "Nano Materials Research Lab, Chitkara University",
     duration: "2023 - Present",
     title:
       "Conducting research on SnO₂ nanoparticles, with a published paper on morphological analysis, and contributing to interdisciplinary projects involving image processing and material science.",
