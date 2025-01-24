@@ -1,3 +1,5 @@
+import { FaNpm } from "react-icons/fa";
+
 const Footer = () => {
   return (
     <footer className="c-space pt-7 pb-3 border-t border-black-300 flex justify-between items-center flex-wrap gap-5">
@@ -34,6 +36,15 @@ const Footer = () => {
               alt="instagram"
               className="w-1/2 h-1/2"
             />
+          </div>
+        </a>
+        <a
+          href="https://www.npmjs.com/package/uipack-manan"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <div className="social-icon flex items-center justify-center  rounded-full p-2 transition duration-300">
+            <FaNpm className="text-white-800 w-6 h-6" />
           </div>
         </a>
       </div>
